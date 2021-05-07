@@ -32,9 +32,13 @@ import_config "#{Mix.env()}.exs"
 
 config :ueberauth, Ueberauth,
   providers: [
-    github: { Ueberauth.Strategy.Github, [] }
+    github: { Ueberauth.Strategy.Github, [default_scope: "user:email"] }
   ]
 
-config :ueberauth, Ueberauth.Strategy.Github.Oauth,
-  client_id: Application.fetch_env!(:discuss, :clientId),
-  client_secret: Application.fetch_env!(:discuss, :secret)
+# config :ueberauth, Ueberauth.Strategy.Github.OAuth,
+#   client_id: System.get_env("GITHUB_CLIENT_ID"),
+#   client_secret: System.get_env("GITHUB_CLIENT_SECRET")
+
+config :ueberauth, Ueberauth.Strategy.Github.OAuth,
+  client_id: "06b836bb8f8ce2668350",
+  client_secret: "51a0167f263d5efd24125542d31d420bc083608f"
