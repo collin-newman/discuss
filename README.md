@@ -21,7 +21,7 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Landing Page that lists all topics, with out signing in the user can only view and comment on topics
 
-<img src="//s.imgur.com/min/embed.js" alt="landing page with user signed out" />
+<img src="https://i.imgur.com/K3oM4nz.png" alt="landing page with user signed out" />
 
 
 Landing Page that lists all topics, only the user that created a topic has the option to edit or delete a topic
