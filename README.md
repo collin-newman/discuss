@@ -42,4 +42,4 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 # Users that are not signed in can still interact with the website, they're comments will just show "Anonymous" as the author.
 
-<img src="https://i.imgur.com/Gw0SbDB.png" alt="signed out user commenting on post" />
+<img src="https://i.imgur.com/IDMvN1f.png" alt="signed out user commenting on post" />
